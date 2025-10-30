@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/img/16_moon.png" sizes="32x32" type="image/png">
+  <title>All About Sean</title>
+  <meta name="color-scheme" content="dark">
+</head>
+<body>
+  <div class="bats" aria-hidden="true">
+    <img class="bat bat1" src="assets/img/image_2025-10-30_194424726-removebg-preview.png" alt="">
+    <img class="bat bat2" src="assets/img/image_2025-10-30_194424726-removebg-preview.png" alt="">
+    <img class="bat bat3" src="assets/img/image_2025-10-30_194424726-removebg-preview.png" alt="">
+    <img class="bat bat4" src="assets/img/image_2025-10-30_194424726-removebg-preview.png" alt="">
+  </div>
+  <main class="page">
+    <section class="card glass" aria-labelledby="name-heading">
+      <div class="web"><img src="assets/img/web.png" alt=""></div>
+
+      <div class="avatar-wrap" aria-hidden="true">
+        <img class="avatar" data-key="avatar" src="" alt="" loading="eager" decoding="async" />
+      </div>
+
+      <h1 id="name-heading" class="name" data-key="name"></h1>
+      <p class="role" data-key="role"></p>
+      <p class="bio"  data-key="bio"></p>
+
+      <ul class="tags" aria-label="Interests" data-key="tags"></ul>
+      <div class="facts" role="list" data-key="facts"></div>
+    </section>
+  </main>
+
+  <script src="profile.js"></script>
+  <script src="render.js"></script>
+</body>
+</html>
